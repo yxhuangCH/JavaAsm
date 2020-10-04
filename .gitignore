@@ -36,7 +36,7 @@ proguard/
 # Android Studio captures folder
 captures/
 
-# IntelliJ
+# Intellij
 *.iml
 .idea/workspace.xml
 .idea/tasks.xml
@@ -61,6 +61,14 @@ captures/
 
 # Google Services (e.g. APIs or Firebase)
 # google-services.json
+.idea/dictionaries
+.idea/libraries
+
+# Keystore files
+*.jks
+
+# External native build folder generated in Android Studio 2.2 and later
+.externalNativeBuild
 
 # Freeline
 freeline.py
@@ -83,3 +91,8 @@ lint/generated/
 lint/outputs/
 lint/tmp/
 # lint/reports/
+/.idea/
+
+*.DS_Store
+.project
+.settings/
